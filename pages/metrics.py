@@ -5,8 +5,6 @@
 # TODO: MORE LABELS
 
 import streamlit as st
-import meteostat as ms
-from datetime import datetime
 import plotly.express as px
 import sqlalchemy
 import pandas as pd
