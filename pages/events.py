@@ -1,5 +1,4 @@
 # Page for viewing full DF, simulating two events, and viewing data for debugging
-# TODO: Implement simulation buttons
 # TODO: Better labels/titles/etc.
 
 import streamlit as st
