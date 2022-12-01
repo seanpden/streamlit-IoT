@@ -158,18 +158,22 @@ with col6:
 
 # st.button('hvac insert columns', 'hvac_btn', 'new db table test', new_hvac_sql)
 foobar = get_new_hvac()
+st.subheader("get_new_hvac")
 st.dataframe(foobar)
 
 # st.button('water insert columns', 'water_btn', 'new db table test', new_water_sql)
 foobar = get_new_water()
+st.subheader("get_new_water")
 st.dataframe(foobar)
 
 # st.button('electric insert columns', 'electric_btn', 'new db table test', new_electric_sql)
 foobar = get_new_electric()
+st.subheader("get_new_electric")
 st.dataframe(foobar)
 
 # st.button('events insert columns', 'events_btn', 'new db table test', new_events_sql)
 foobar = get_new_events()
+st.subheader("get_new_events")
 st.dataframe(foobar)
 
 # --------------------
